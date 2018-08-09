@@ -80,6 +80,5 @@ echo -e "\n\n-----------------------------Instalando tema para zsh(agnoster)"
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 echo -e "\n\n-----------------------------Configurando..."
 editor_linha "ZSH_THEME=\"robbyrussell\"" "ZSH_THEME=\"agnoster\"" ~/.zshrc
+echo -e '\nsource ~/.profile' >> ~/.zshrc
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.zshrc
-source ~/.profile
-exec $SHELL

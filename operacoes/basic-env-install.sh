@@ -43,7 +43,6 @@ git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.5.0
 echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.profile
 echo -e '\n. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 source ~/.profile
-exec $SHELL
 
 #Fonts para agnoster
 echo -e "\n\n-----------------------------Baixando Fontes para terminal"
